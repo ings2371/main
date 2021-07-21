@@ -1,0 +1,26 @@
+/*style of all the topnav links*/
+.topnav a{
+backround-color: black;
+float: left;
+display: block;
+color: lightgreen;
+text-align: center;
+padding: 10px 12px
+} 
+
+/*this changes the color when hovering over it*/
+.topnav a:hover{
+backround-color: MediumSeaGreen;
+color: blue;
+}
+
+
+@media screen and (max-width: 880px){
+topnav a{
+float: none;
+display: block;
+text-align: left;
+width: 30%;
+padding: 9px 9px;
+}
+}
