@@ -1,16 +1,16 @@
 /*style of all the topnav links*/
 .topnav a{
-backround-color: black;
+backround-color: grey;
 float: left;
 display: block;
-color: lightgreen;
+color: green;
 text-align: center;
 padding: 10px 12px
 } 
 
 /*this changes the color when hovering over it*/
 .topnav a:hover{
-backround-color: MediumSeaGreen;
+backround-color: lightgrey;
 color: blue;
 }
 
