@@ -1,9 +1,9 @@
 /*style of all the topnav links*/
 .topnav a{
-backround-color: grey;
+backround-color: lightgrey;
 float: left;
 display: block;
-color: green;
+color: darkred;
 text-align: center;
 padding: 10px 12px
 } 
