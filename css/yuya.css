@@ -22,6 +22,7 @@ display: block;
 text-align: left;
 width: 30%;
 padding: 9px 9px;
+ }
  
   .row::after {
   content: "";
@@ -95,8 +96,6 @@ padding: 8px;
 padding: 5px;
   background-color:white;
   }
-  
-
 
    /*this makes the name and age of each friend blue*/
 #yu1{
