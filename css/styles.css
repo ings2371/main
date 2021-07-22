@@ -1,6 +1,6 @@
 /*style of all the topnav links*/
 .topnav a{
-backround-color: lightgrey;
+background-color: lightgrey;
 float: left;
 display: block;
 color: darkred;
@@ -10,7 +10,7 @@ padding: 10px 12px
 
 /*this changes the color when hovering over it*/
 .topnav a:hover{
-backround-color: light grey;
+background-color: lightgrey;
 color: blue;
 }
  
