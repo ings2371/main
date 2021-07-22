@@ -26,40 +26,40 @@ color: blue;
   border: 1px solid green;
 }
  
-  /*this affects the header*/
+  /*this affects the header for main page*/
 #gx1 {
 border: 2px solid blue;
 padding: 10px;
 }
 
- /*this affects the paragraph under the nav*/ 
+ /*this affects the paragraph under the nav for main page*/ 
   #gx2{
 font-size:110%;
 border: 1px solid red;
 padding: 5px;
 }
   
-  /*this affects the footer*/
+  /*this affects the footer for all*/
 #vrn1{
   border: 1px solid black;
 padding: 5px;
   background-color:white;
   }
   
-    /*this affects the header*/
+    /*this affects the header for story board page*/
 #arc1{
 border: 2px solid purple;
 padding: 10px;
 }
 
- /*this affects the paragraph under the nav*/ 
+ /*this affects the paragraph under the nav for story board page*/ 
 #arc2{
 font-size:110%;
 border: 1px solid red;
 padding: 5px;
 }
 
-  /*this makes a boarder around main page story board*/
+  /*this makes a boarder around main page story board for story board page*/
 #arc3{
 font-size:110%;
 border: 2px solid blue;
@@ -79,40 +79,33 @@ font-size:110%;
 border: 2px solid black;
 padding: 8px;
 }
- 
-  /*this affects the footer*/
-  #vrn1{
-  border: 1px solid black;
-padding: 5px;
-  background-color:white;
-  }
 
-   /*this makes the name and age of each friend blue*/
+   /*this makes the name and age of each friend blue for table page*/
 #yu1{
 color:blue;
 }
 
-  /*this shows the wins the friends got in green*/ 
+  /*this shows the wins the friends got in green for table page*/ 
 #yu2{
 color:green;
 }
 
-  /*this shows the loses the friends got in red*/ 
+  /*this shows the loses the friends got in red for table page*/ 
 #yu3{
 color:red;
 }
 
-  /*this makes the words larger in the table*/ 
+  /*this makes the words larger in the table for table page*/ 
 #yu1,#yu2,#yu3{
 font-size:120%;
 }
 
-/*this affects the header in each table section*/  
+/*this affects the header in each table section for table page*/  
 #yu4{
 color:darkred;
 }
 
-  /*this affects the paragraph under the nav*/
+  /*this affects the paragraph under the nav for table page*/
 #yu5{
  padding: 5px;
  border: 1px solid red;
@@ -123,6 +116,19 @@ color:darkred;
    padding: 5px;
  border: 1px solid blue;
   }
+
+/*this affects the header for help page*/
+#se1 {
+border: 2px solid blue;
+padding: 10px;
+}
+
+/*this affects the paragraph under the nav for help page*/ 
+  #se2{
+font-size:110%;
+border: 1px solid red;
+padding: 5px;
+}
 
 
 .col-1 {width: 8.33%;}
