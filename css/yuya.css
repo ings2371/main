@@ -22,8 +22,20 @@ display: block;
 text-align: left;
 width: 30%;
 padding: 9px 9px;
-  
-   /*this affects the header*/
+ 
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid green;
+}
+ 
+  /*this affects the header*/
 #gx1{
 border: 2px solid blue;
 padding: 10px;
@@ -83,6 +95,46 @@ padding: 8px;
 padding: 5px;
   background-color:white;
   }
+  
+
+
+   /*this makes the name and age of each friend blue*/
+#yu1{
+color:blue;
+}
+
+  /*this shows the wins the friends got in green*/ 
+#yu2{
+color:green;
+}
+
+  /*this shows the loses the friends got in red*/ 
+#yu3{
+color:red;
+}
+
+  /*this makes the words larger in the table*/ 
+#yu1,#yu2,#yu3{
+font-size:120%;
+}
+
+/*this affects the header in each table section*/  
+#yu4{
+color:darkred;
+}
+
+  /*this affects the paragraph under the nav*/
+#yu5{
+ padding: 5px;
+ border: 1px solid red;
+ }
+  
+#yu7{
+  text-align:center;
+   padding: 5px;
+ border: 1px solid blue;
+  }
+
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
