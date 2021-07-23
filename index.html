@@ -30,27 +30,27 @@
  
   <!--to see who did the survey-->
   <label for="flname">Full name:</label>
-  <input type="text" id="flname" name="flname">
+  <input type="text" id="flname" name="flname" required>
    <br><br>
   
   <!--to see where a persons from-->
    <label for="city">City:</label>
-  <input type="text" id="city" name="city">
+  <input type="text" id="city" name="city" required>
  <br><br>
   
   <!--to see the persons email-->
   <label for="email">email:</label>
-  <input type="text" id="email" name="email">
+  <input type="text" id="email" name="email" required>
    <br><br>
 
   <!--to see how old a person did this-->
   <label for="age">Age:</label>
-  <input type="number" id="age" name="age" min="16" max="116">
+  <input type="number" id="age" name="age" min="16" max="116" required>
    <br><br>
    
   <!--to know when a person did this-->
   <label for="datemin">The date:</label>
-  <input type="date" id="datemin" name="datemin" min="2021-07-15">
+  <input type="date" id="datemin" name="datemin" min="2021-07-15" required>
   <br><br>
 
   <!--wanting to know what the people's favorite number is out of these one's-->
@@ -68,23 +68,11 @@
 
   <!--the persons favorite card game-->
   <label for="cardg">whats your favorite card game:</label>
-  <input type="text" id="cardg" name="cardg">
-
-  <!--wondering what kind of elements people like-->
-<p>Click each element you like bellow:</p>
-<input type="checkbox" id="spades" name="spades" value="suit">
- <label for="spades">spades</label><br>
-<input type="checkbox" id="dimonds" name="dimonds" value="suit">
- <label for="dimond">dimond</label><br>
-<input type="checkbox" id="clubs" name="clubs" value="suit">
- <label for="clubs">clubes</label><br> 
-<input type="checkbox" id="hearts" name="hearts" value="suit">
- <label for="hearts">hearts</label><br>
-<br>
+  <input type="text" id="cardg" name="cardg" required>
 
 <!--to see how your time went when doing the survey-->
 <p>How was the survey?</p>
-<textarea name="message" row="11" col="33"></textarea>
+<textarea name="message" row="11" col="33" required></textarea>
 <br><br>
 <input type="submit" value="Submit">
    <input type="reset">
